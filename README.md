@@ -15,7 +15,7 @@ Analyzing churn data helps uncover the key drivers and enables companies to impl
 
 
 
-#### Project Objective
+### Project Objective
 The main goal of our project is to develop an understanding of the cause of customer churn which assist telecom operators to predict customers who are most likely subject to churn, and what to do to retain the most valuable customer.
 
 ### Tools and Methodology
@@ -25,15 +25,22 @@ The project was carried out using Python, and an exploratory data analysis was d
 The following questions were asked to extract insights from the dataset;
 
 (1)  What is the distribution of churn among customers?
+
 (2)  How does churn correlate with the number of customer service calls?
+
 (3)  Is there a relationship between the total minutes of usage (day, evening, night, international) and churn?
+
 (4)  What is the average number of calls in the day, evening, and night for churned vs non-churned customers?
+
 (5)` What is the distribution of the "account length" for customers who churn vs those who don't?
+
 (6)``What is the correlation between numerical features (e.g., total minutes, charges) and churn?
 Selection deleted
 
 (7)` How do churn rates differ based on area code?
+
 (8)` Is there a difference in the total charges (day, evening, night, international) between churned and non-churned customers?
+
 (9)  Are there significant differences in churn based on the "number of voicemail messages?
 
 
@@ -55,7 +62,7 @@ Interestingly, international calls did not follow the same trend, with churned c
 
 Non-churned customers, on average, had a longer account length, indicating that customers who have been with the service for a longer time tend to stay longer, while newer customers may be more likely to churn.
 
-#### Correlation with Churn:
+##### Correlation with Churn:
 
 Moderate positive correlations were found between churn and the following features:
 
@@ -63,12 +70,13 @@ Customer service calls: Higher interaction with customer service correlates with
 
 Total day minutes and total day charge: Churned customers tend to use more daytime minutes and incur higher charges.
 
-Weak positive correlations:
+##### Weak positive correlations:
 Total evening minutes, total international charge, and total night minutes show weak correlations with churn, suggesting that while there is some relationship, it is not as strong.
-Weak negative correlations:
+
+##### Weak negative correlations:
 International calls and number of voicemail messages were weakly negatively correlated with churn, indicating that customers who make more international calls or receive more voicemail messages may be less likely to churn, though this effect is minimal.
 
-No meaningful correlations:
+##### No meaningful correlations:
 
 Features such as area code, total evening calls, and account length showed either no correlation or very weak correlations with churn.
 
